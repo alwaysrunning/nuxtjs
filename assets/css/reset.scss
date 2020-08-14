@@ -1,0 +1,225 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    // -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: auto;
+    -webkit-tap-highlight-color: rgba(
+      0,
+      0,
+      0,
+      0
+    ); //  remove tap highlight color for mobile safari
+  }
+  
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  // unify the setting of elements's margin and padding for browsers
+  body,
+  div,
+  // dl,
+  // dt,
+  // dd,
+  ul,
+  ol,
+  li,
+  pre,
+  code,
+  form,
+  fieldset,
+  legend,
+  input,
+  textarea,
+  p,
+  blockquote,
+  th,
+  td,
+  hr,
+  button,
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header,
+  section,
+  footer,
+  aside,
+  nav,
+  article,
+  figure {
+    display: block;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    font-family: $font-family-text;
+    font-weight: $font-weight-base;
+    font-size: $font-size-base;
+    line-height: 1.5;
+    background: $body-color-base;
+    color: $text-color;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+    // overflow: hidden;
+  }
+  
+  a {
+    color: $primary-color;
+    text-decoration: none;
+    word-break: break-word;
+  
+    &:hover,
+    &:focus {
+      color: mix($white-color, $primary-color, $btn-hover-tint-percent);
+    }
+  
+    &:active {
+      color: mix($black-color, $primary-color, $btn-active-shade-percent);
+    }
+  }
+  
+  h1 {
+    color: $text-color;
+    margin: $margin-xl 0;
+    padding: 0 0 $padding-base;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-xxl;
+    border-bottom: $border-base;
+    // &:first-child {
+    //   margin-top: 0;
+    // }
+  
+    // &:last-child {
+    //   margin-bottom: 0;
+    // }
+  }
+  
+  h2 {
+    color: $text-color;
+    margin: $margin-base 0;
+    padding: 0;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-xl;
+    // &:first-child {
+    //   margin-top: 0;
+    // }
+  
+    // &:last-child {
+    //   margin-bottom: 0;
+    // }
+  }
+  
+  h3 {
+    color: $text-color;
+    margin: $margin-sm 0;
+    padding: 0;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-l;
+    // &:first-child {
+    //   margin-top: 0;
+    // }
+  
+    // &:last-child {
+    //   margin-bottom: 0;
+    // }
+  }
+  
+  h4,
+  h5,
+  h6 {
+    color: $text-color;
+    margin: $margin-xs 0;
+    padding: 0;
+    font-weight: $font-weight-bold;
+    font-size: inherit;
+  
+    // &:first-child {
+    //   margin-top: 0;
+    // }
+  
+    // &:last-child {
+    //   margin-bottom: 0;
+    // }
+  }
+  
+  p {
+    margin: $margin-sm 0;
+    padding: 0;
+    font-size: inherit;
+    line-height: 1.75;
+  
+    // &:first-child {
+    //   margin-top: 0;
+    // }
+  
+    // &:last-child {
+    //   margin-bottom: 0;
+    // }
+  }
+  
+  strong,
+  b {
+    font-weight: $font-weight-bold;
+    color: $title-color;
+  }
+  
+  sup,
+  sub {
+    font-size: #{$font-size-base - 1px};
+  }
+  
+  // small {
+  //   font-size: #{$font-size-base - 2px};
+  // }
+  
+  hr {
+    margin: $margin-md 0;
+    border: 0;
+    border-top: 1px solid $border-color-split;
+  }
+  
+  // Reset fonts for relevant elements
+  button,
+  input,
+  select,
+  textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+  }
+  
+  input[type='text'],
+  textarea {
+    -webkit-appearance: none;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  // Remove the clear button of a text input control in IE10+
+  input::-ms-clear,
+  input::-ms-reveal {
+    display: none;
+  }
+  

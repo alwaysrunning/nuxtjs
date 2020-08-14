@@ -1,0 +1,134 @@
+/* Element Chalk Variables */
+
+$font-family-title: 'Montserrat', sans-serif;
+$font-family-text: 'Montserrat', sans-serif;
+$font-family-condensed-black: 'Montserrat', sans-serif;
+$font-family-condensed-bold: 'Montserrat',  sans-serif;
+
+/* background
+-------------------------- */
+
+$background-color-base: #fafdff !default;
+$body-color-base: #fcfcfc !default;
+$content-color-base: #f7f8fc !default;
+
+/* colors
+-------------------------- */
+$primary-color: #005EB8 !default;
+// $primary-color: #005db9 !default;
+$primary-color-main: #004594 !default;
+// $primary-color-darker: #17314A !default;
+$primary-color-darker: #003B5C !default;
+$primary-color-lighter: #69B3E7 !default;
+$primary-color-pink: #5F778F !default;
+$primary-color-lighter__desalt: #E1F0FA !default;
+$white-color: #FCFCFC !default;
+$black-color: #000 !default;
+$black-color-lighter: #231F20 !default;
+$success-color: #43b02a !default;
+$success-color-lighter: #4fd320 !default;
+$warning-color: #FFA300 !default;
+$warning-color-lighter: #FDCC14 !default;
+$danger-color: #ff6d6b !default;
+$danger-color-darker: #aa0000 !default;
+$info-color: #808285 !default;
+$cyan-color: #13c2c2 !default;
+$pink-color: #eb2f96 !default;
+$purple-color: #722ed1 !default;
+$gray-color: #f5f8fa !default;
+$orange-color: #fa541c !default;
+
+/* Text Color
+---------------------------- */
+
+$title-color: #38485a !default;
+$text-color: #4C5C6E !default; //#8391A0
+$text-color-white: #CCD4DD !default;
+$text-color-sub: #8391A0 !default;
+// $text-color-disabled: #bfbfbf !default;
+$text-color-disabled: #B8BBBF !default;
+$text-color-grey: #999 !default;
+$text-color-primary-darker: #374C71 !default;
+$box-shadow-color: #979797 !default;
+/* Border
+-------------------------- */
+
+$border-width-base: 1px !default;
+$border-style-base: solid !default;
+$border-color-base: #dfe3e9 !default;
+$border-color-sub: #eaecf0 !default;
+$border-color-split: $border-color-sub !default;
+// $border-color-disabled: $border-color-sub !default;
+// $border-color-hover: $border-color-base !default;
+$border-base: $border-width-base $border-style-base $border-color-base !default;
+
+/* Disable base
+-------------------------- */
+
+$disabled-color: $background-color-base !default;
+$disabled-color-base: $text-color-disabled !default;
+
+/* Link;
+-------------------------- */
+
+$link-color: $primary-color-main !default;
+$link-color-hover: $primary-color-main !default;
+
+/* padding and margin
+------------------------------------ */
+
+$padding-xxs: 0px !default;
+$padding-xs: 5px !default;
+$padding-sm: 10px !default;
+$padding-md: 15px !default;
+$padding-base: 20px !default;
+$padding-lg: 25px !default;
+$padding-xl: 30px !default;
+$margin-xxs: $padding-xxs !default;
+$margin-xs: $padding-xs !default;
+$margin-sm: $padding-sm !default;
+$margin-md: $padding-md !default;
+$margin-base: $padding-base !default;
+$margin-lg: $padding-lg !default;
+$margin-xl: $padding-xl !default;
+
+/* button
+-------------------------- */
+$btn-hover-tint-percent: 20% !default;
+$btn-active-shade-percent: 10% !default;
+
+/* font
+-------------------------- */
+
+$font-path: 'fonts' !default;
+$font-size-xxs: 11px !default;
+$font-size-xs: 12px !default;
+$font-size-s: 13px !default;
+$font-size-base: 14px !default;
+$font-size-m: 16px !default;
+$font-size-l: 18px !default;
+$font-size-xl: 20px !default;
+$font-size-xxl: 24px !default;
+$font-color-disabled-base: #bbb !default;
+$font-weight-base: 400 !default;
+$font-weight-normal: 500 !default;
+$font-weight-bold: 600 !default;
+$line-height-base: 24px !default;
+
+$index-normal: 1 !default;
+$index-top: 1000 !default;
+$index-popper: 2000 !default;
+
+$screen-xs: 425px !default;
+$screen-sm: 768px !default;
+$screen-md: 1024px !default;
+$screen-lg: 1200px !default;
+$screen-xl: 1920px !default;
+
+$header-height: 64px;
+$header-height-phone: 64px;
+$sub-header-height: 56px;
+$max-content-width: 1152px;
+$mid-content-width: 1000px;
+$header-logo-width: 120px;
+$header-logo-height: 48px;
